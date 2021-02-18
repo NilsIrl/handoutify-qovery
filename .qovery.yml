@@ -1,0 +1,11 @@
+application:
+  name: handoutify-qovery
+  project: handoutify-qovery
+  publicly_accessible: true
+  cpu: 1
+routers:
+- name: main
+  routes:
+  - application_name: handoutify-qovery
+    paths:
+    - /
